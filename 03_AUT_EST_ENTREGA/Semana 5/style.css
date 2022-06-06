@@ -1,0 +1,16 @@
+
+img{
+    max-width: 150px;
+    border-radius: 2rem;
+    
+}
+
+body{
+    background-color: gray;
+}
+
+#informações{
+    display: none;
+}
+
+
