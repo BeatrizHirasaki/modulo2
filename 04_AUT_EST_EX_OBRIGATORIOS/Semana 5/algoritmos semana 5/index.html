@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios com algoritmos</title>
+</head>
+<body>
+
+    <div>
+        <h1>Exercício 1</h1>
+    </div>
+    <div>
+        Valor 1: <input type="number" id="n1" />
+        operador: <select type="operador" id="op">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        Valor 2: <input type="number" id="n2" />
+    </div>
+    <div>
+        <button onclick="calculo();">Calcular</button>
+    </div>
+    <div>
+        <p>Resultado:</p>
+        <ol id="total"></ol>
+    </div>
+
+        <div class="container"> 
+            <h1>Exercício 2</h1> 
+            <div class="input_area">  
+                <h2>Valor </h2> 
+                <input id="value1" type="number"> 
+            </div> 
+
+            <button onclick="calculate(value1.value)">Calcular</button> 
+            <p class="result" id="text_area"></p> 
+        
+        </div> 
+    
+        <div class="tittle"><h1>Exercício 3</h1></div>
+        <div class="tittlePreco"><h3>Digite os numeros sepados por vírgula </h3></div>
+        <div class="inputs">
+            <div class="nums">
+                <input type="text" id="nums" name="valor1" placeholder="Digite os numeros" class="camponum">
+            </div>
+        </div>
+        <div class="buttonOnClick">
+            <button onclick="CalAndShow()" id="buttoncalc" class="button">Calcular</button>
+        </div>
+        <div class="resposta" id="respo">
+            <h2 id="crescente"></h2>
+            <h2 id="posicao"></h2>
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

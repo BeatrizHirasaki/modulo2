@@ -9,6 +9,8 @@ body{
     background-color: gray;
 }
 
-
+#informações{
+    display: none;
+}
 
 
